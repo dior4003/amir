@@ -1,0 +1,364 @@
+.about__ {
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://demo.ovatheme.com/transflash/wp-content/uploads/2021/12/header-banner-service-air-freight.jpg);
+  .container_70 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .title {
+      color: #fff;
+      font-size: 48px;
+      font-weight: 600;
+    }
+    .link {
+      color: gray;
+      font-size: 20px;
+      font-family: "Courier New", Courier, monospace;
+      a {
+        color: rgb(201, 201, 201);
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: 0.3 all linear;
+        &:hover {
+          color: #47bf6f;
+        }
+      }
+      span {
+        color: rgb(201, 201, 201);
+      }
+    }
+  }
+}
+.abouts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  .container_70 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    .info {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 30px;
+      .tit {
+        font-size: 18px;
+        color: #000;
+        font-weight: 700;
+      }
+      .title {
+        font-size: 48px;
+        color: #000;
+        font-weight: 700;
+      }
+      .p_decr {
+        font-size: 18px;
+        color: gray;
+        line-height: 25px;
+      }
+      .tabs {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        .item {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid gray;
+          font-size: 20px;
+          font-weight: 600;
+          color: gray;
+          
+        }
+        .active {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid #47bf6f;
+          font-size: 20px;
+          font-weight: 600;
+          color: #000;
+        }
+      }
+      .content {
+        list-style: none;
+        padding: 10px 0;
+        .item {
+            i{
+                font-size: 16px;
+                color: #47bf6f;
+                padding-right: 15px;
+            }
+          padding: 10px 0 10px 0;
+          font-size: 24px;
+          color: gray;
+        }
+      }
+    }
+    .img {
+      width: 50%;
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width:1440px){
+    .about__ {
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://demo.ovatheme.com/transflash/wp-content/uploads/2021/12/header-banner-service-air-freight.jpg);
+  .container_70 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .title {
+      color: #fff;
+      font-size: 42px;
+      font-weight: 600;
+    }
+    .link {
+      color: gray;
+      font-size: 20px;
+      font-family: "Courier New", Courier, monospace;
+      a {
+        color: rgb(201, 201, 201);
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: 0.3 all linear;
+        &:hover {
+          color: #47bf6f;
+        }
+      }
+      span {
+        color: rgb(201, 201, 201);
+      }
+    }
+  }
+}
+.abouts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  .container_70 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    .info {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 30px;
+      .tit {
+        font-size: 18px;
+        color: #000;
+        font-weight: 700;
+      }
+      .title {
+        font-size: 36px;
+        color: #000;
+        font-weight: 700;
+      }
+      .p_decr {
+        font-size: 18px;
+        color: gray;
+        line-height: 25px;
+      }
+      .tabs {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        .item {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid gray;
+          font-size: 20px;
+          font-weight: 600;
+          color: gray;
+          
+        }
+        .active {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid #47bf6f;
+          font-size: 20px;
+          font-weight: 600;
+          color: #000;
+        }
+      }
+      .content {
+        list-style: none;
+        padding: 10px 0;
+        .item {
+            i{
+                font-size: 16px;
+                color: #47bf6f;
+                padding-right: 15px;
+            }
+          padding: 10px 0 10px 0;
+          font-size: 18px;
+          color: gray;
+        }
+      }
+    }
+    .img {
+      width: 50%;
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+}
+@media (max-width:1024px){
+    .about__ {
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://demo.ovatheme.com/transflash/wp-content/uploads/2021/12/header-banner-service-air-freight.jpg);
+  .container_70 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .title {
+      color: #fff;
+      font-size: 42px;
+      font-weight: 600;
+    }
+    .link {
+      color: gray;
+      font-size: 20px;
+      font-family: "Courier New", Courier, monospace;
+      a {
+        color: rgb(201, 201, 201);
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: 0.3 all linear;
+        &:hover {
+          color: #47bf6f;
+        }
+      }
+      span {
+        color: rgb(201, 201, 201);
+      }
+    }
+  }
+}
+.abouts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  .container_70 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .info {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 30px;
+      .tit {
+        font-size: 18px;
+        color: #000;
+        font-weight: 700;
+      }
+      .title {
+        font-size: 36px;
+        color: #000;
+        font-weight: 700;
+      }
+      .p_decr {
+        font-size: 18px;
+        color: gray;
+        line-height: 25px;
+      }
+      .tabs {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        .item {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid gray;
+          font-size: 20px;
+          font-weight: 600;
+          color: gray;
+          
+        }
+        .active {
+          width: 50%;
+          padding: 10px 20px 10px 0;
+          border-bottom: 2px solid #47bf6f;
+          font-size: 20px;
+          font-weight: 600;
+          color: #000;
+        }
+      }
+      .content {
+        list-style: none;
+        padding: 10px 0;
+        .item {
+            i{
+                font-size: 16px;
+                color: #47bf6f;
+                padding-right: 15px;
+            }
+          padding: 10px 0 10px 0;
+          font-size: 18px;
+          color: gray;
+        }
+      }
+    }
+    .img {
+      width: 100%;
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+}
