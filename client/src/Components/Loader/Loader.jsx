@@ -12,13 +12,13 @@ export default function Loader(props) {
     <div className={`body ${counter}`}>
       <div class="loader">
         <span>
-          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" />
+          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" alt="asd"/>
         </span>
         <span>
-          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" />
+          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" alt="efwf" />
         </span>
         <span>
-          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" />
+          <img src="https://www.seekpng.com/png/full/828-8282035_delivery-truck-delivery-van-icon.png" alt="gtrbd" />
         </span>
       </div>
     </div>

@@ -47,7 +47,8 @@ export default function Sidebar(props) {
       </ul>
       <div className="help">
         <h2 className="title">Do you need support?</h2>
-        <a href="" className="btn__">
+
+        <a href="tel:+4108019955" className="btn__">
           Contact us
         </a>
       </div>

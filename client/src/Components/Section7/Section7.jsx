@@ -1,57 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Section7() {
-  const data = [
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-7.jpg",
-      name: "Bessie Cooper",
-      job: "Truck driver",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-5.jpg",
-      name: "Cody Fisher",
-      job: "Procurement manager",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-6.jpg",
-      name: "Floyd Miles",
-      job: "Procurement manager",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-2.jpg",
-      name: "Eleanor Pena",
-      job: "Warehouse managerr",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-8.jpg",
-      name: "Dianne Russell",
-      job: "Marketing manager",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-    {
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/11/team-7.jpg",
-      name: "Bessie Cooper",
-      job: "Truck driver",
-      f: "#",
-      t: "#",
-      l: "#",
-    },
-  ];
+
   return (
     <section className="section_7">
       <section class="services">

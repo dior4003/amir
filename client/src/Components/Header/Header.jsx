@@ -6,7 +6,7 @@ export default function Header({
   abo = false,
   servis = false,
   cont = false,
-  quote=false
+  quote = false,
 }) {
   const [classses, setClasses] = useState("navbar");
   const hendleBar = () => {
@@ -19,9 +19,9 @@ export default function Header({
   return (
     <header id="header" className="header">
       <div className="header_container">
-        <div className="logo__box">
+        <Link to="/" className="logo__box">
           <img src={img} alt="" />
-        </div>
+        </Link>
 
         <ul className={classses}>
           <Link to="/" className="nav_link">

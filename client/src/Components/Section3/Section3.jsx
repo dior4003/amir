@@ -1,15 +1,12 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
-
-
 
 export default function Section3() {
   const [size, setSize] = useState(100);
   const [current, setCurrent] = useState(0);
   const [active, setActive] = useState(null);
-  const [move ,setMove]=useState(0)
-
+  const [move, setMove] = useState(0);
+  if (move) {
+  }
   const data = [
     {
       img: "https://www.stltruckers.com/assets/thumbs/webp/43357e466827b80a6b80a44706c33481.webp",
@@ -99,26 +96,6 @@ export default function Section3() {
       setCurrent(0);
     } else setCurrent((prev) => prev - 1);
   };
-  const data1 = [
-    {
-      class: "fa-solid fa-dollar-sign",
-      title: " 0,65 - 0,75",
-    },
-    {
-      class: "fa-solid fa-road",
-      title: "3000-5000 mile",
-    },
-    {
-      class: "fa-solid fa-user-check",
-      title: "Experience 1+",
-      decr: "Offer secure, reliable and environmentally friendly rail freight transportation.",
-    },
-    {
-      class: "flaticon-24-hours",
-      title: "24/7 dispatch",
-      decr: "We are the high quality and and highly secured road transportation provider.",
-    },
-  ];
 
   return (
     <section className="section_3">
@@ -164,10 +141,7 @@ export default function Section3() {
           <p className="decr">{data[current].descr.title1}</p>
           <ul className="services">
             {data[current].descr.info.map((item, id) => (
-              <li
-                className="ite"
-               
-              >
+              <li className="ite">
                 <i className={item.class}></i>
                 <span>{item.title}</span>
               </li>

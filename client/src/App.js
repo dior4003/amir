@@ -5,7 +5,6 @@ import RouterApps from "./Components/Router/router";
 import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect, useState } from "react";
 import Loader from "./Components/Loader";
 function App() {
   return (

@@ -6,9 +6,11 @@ import Section9 from "../Section9";
 import Section4 from "../Section4";
 import Sidebar from "./ui/sidebar";
 import Contents from "./ui/Contents";
-import intern from "../../img/intern.jpg";
+import intern from "../../img/internship.jpg";
+import intern_t from "../../img/intern_truck.jfif";
 import delicate from "../../img/delicate.jpg";
 import drivers from "../../img/drivers.jpg";
+import delicates from "../../img/delicates.jpg";
 import land from "../../img/land.jpg";
 import were from "../../img/were.jpg";
 import cus from "../../img/cus.jpg";
@@ -22,7 +24,7 @@ export default function Services({ link }) {
       decr2: ``,
       title1: "Internship programs",
       decr3: `As with engineering positions, however, AmirLogistics company want to see that a potential logistics employee can thrive in a real-world work environment. `,
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/12/rail-freight-small-03.jpg",
+      img: intern_t,
       decr4: `  We need to feel secure that your investment in a new-hire will pay dividends. Without a doubt, the best way to attain this real-world experience is through an internship.`,
     },
     {
@@ -31,7 +33,7 @@ export default function Services({ link }) {
       decr2: ``,
       title1: "Dedicated Lanes",
       decr3: `Dedicated lanes are defined as a single truck driver running from point A to point B with a load of freight and returning full to point A. Typically companies use dedicated lanes for permanent scheduled deliveries to large customers or distribution centers. `,
-      img: "https://demo.ovatheme.com/transflash/wp-content/uploads/2021/12/sea-freight-small.jpg",
+      img: delicates,
       decr4: ` An example of this: a manufacturer sends raw material from Richmond, Virginia to Atlanta, Georgia every week. That same truck then picks up finished goods in Atlanta and brings it back to Richmond, Virginia. Large companies such as AmirLogistics typically use a dedicated fleet to perform this task.`,
     },
     {

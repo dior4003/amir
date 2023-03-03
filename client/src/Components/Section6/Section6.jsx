@@ -34,7 +34,7 @@ const Item = (props) => {
 
 export default function Corusel() {
   const [active, setActive] = useState(1);
-  const [item, setItem] = useState([
+  const item=[
     {
       vid: vid,
       img: "https://www.stltruckers.com/assets/thumbs/webp/a48c2bd628d9e74ea5d146ad0baee742.webp",
@@ -47,8 +47,8 @@ export default function Corusel() {
       vid: vid3,
       img: "https://www.stltruckers.com/assets/thumbs/crop/832x468/633ee217183ed02d053a73afda81b691.webp",
     },
-  ]);
-  const [items, setItems] = useState(item);
+  ];
+  const items = item;
   const [direction, setDirection] = useState("");
   function generateItems() {
     var items = [];
