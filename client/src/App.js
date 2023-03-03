@@ -23,14 +23,14 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      <a href="tel:+(410) 801-9955" className="call">
+      <a href="tel:+4108019955" className="call">
         <div className="call-btn">
           <div className="pulse">
             <div className="cursor"></div>
             <div className="phone">
               <i className="fa fa-phone" aria-hidden="true"></i>
             </div>
-            <div className="text">Заказать звонок</div>
+            <div className="text">Get a call</div>
           </div>
         </div>
       </a>
